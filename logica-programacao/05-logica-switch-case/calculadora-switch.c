@@ -11,7 +11,7 @@ int main(){
 	printf("digite o segundo numero \n");
 	scanf("%f", &num2);
 	
-	printf("escolha um operador logico: \n1 - soma\n2 - subtracao\n3 - multiplicacao \n4 - divisao\n");
+	printf("escolha um operador relacional: \n1 - soma\n2 - subtracao\n3 - multiplicacao \n4 - divisao\n");
 	scanf("%d", &operador);
 	
 	switch (operador){
